@@ -10,18 +10,22 @@
     <h1>Tic Tac Toe</h1>
     <div class="game-container">
         <div class="grid">
-            <input type="text" class="btn" readonly>
-            <input type="text" class="btn" readonly>
-            <input type="text" class="btn" readonly>
-            <input type="text" class="btn" readonly>
-            <input type="text" class="btn" readonly>
-            <input type="text" class="btn" readonly>
-            <input type="text" class="btn" readonly>
-            <input type="text" class="btn" readonly>
-            <input type="text" class="btn" readonly>
+            <input type="text" class="btn" data-index="0">
+            <input type="text" class="btn" data-index="1">
+            <input type="text" class="btn" data-index="2">
+            <input type="text" class="btn" data-index="3">
+            <input type="text" class="btn" data-index="4">
+            <input type="text" class="btn" data-index="5">
+            <input type="text" class="btn" data-index="6">
+            <input type="text" class="btn" data-index="7">
+            <input type="text" class="btn" data-index="8">
         </div>
-        <div class="result-container"></div>
-        <button class="reset-btn" disabled>Reset</button>
+        <div class="result-container">
+            Player X's turn
+        </div>
+        <div class="reset-section">
+            <button class="reset-btn" disabled>Reset</button>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
