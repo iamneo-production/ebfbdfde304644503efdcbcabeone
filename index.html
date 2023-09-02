@@ -2,11 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Tic Tac Toe</title>
 </head>
 <body>
-    
+    <h1>Tic Tac Toe</h1>
+    <div class="game-container">
+        <div class="grid">
+            <!-- Create the 3x3 grid -->
+            <input type="text" class="btn" readonly>
+            <input type="text" class="btn" readonly>
+            <input type="text" class="btn" readonly>
+            <input type="text" class="btn" readonly>
+            <input type="text" class="btn" readonly>
+            <input type="text" class="btn" readonly>
+            <input type="text" class="btn" readonly>
+            <input type="text" class="btn" readonly>
+            <input type="text" class="btn" readonly>
+        </div>
+        <div class="result-container">
+            <!-- Display current player's turn and game result -->
+        </div>
+        <button class="reset-btn" disabled>Reset</button>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
