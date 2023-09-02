@@ -1,12 +1,10 @@
-/* Header Styling */
 h1 {
     text-align: center;
-    color: #fff; /* Bright white color */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
-    font-size: 50px; /* Prominent font size */
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 50px;
 }
 
-/* Box Styling */
 .game-container {
     display: flex;
     flex-direction: column;
@@ -14,75 +12,65 @@ h1 {
     margin: 35px;
 }
 
-/* Row Styling */
 .grid {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-/* Button Styling */
 .btn {
-    border: 2px solid #fff; /* Border */
-    border-radius: 10px; /* Rounded corners */
-    width: 75px; /* Fixed width */
-    height: 75px; /* Fixed height */
+    border: 2px solid #fff;
+    border-radius: 10px;
+    width: 75px;
+    height: 75px;
     text-align: center;
-    font-size: 50px; /* Font size */
-    font-weight: 500; /* Font weight */
-    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white */
-    color: #333; /* Darker text color */
-    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5); /* Lighter text shadow */
+    font-size: 50px;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
 }
 
-/* Add your additional CSS styling here */
-/* Button Hover Styling */
 .btn:hover {
-    background-color: rgba(255, 255, 255, 0.95); /* Lighter background on hover */
-    cursor: pointer; /* Cursor changes to a pointer */
-}
-
-/* Disabled Button Styling */
-.btn:disabled {
-    color: #000; /* Black text for disabled buttons */
-    cursor: not-allowed; /* 'no-drop' cursor for disabled buttons */
-}
-
-/* Result Container Styling */
-.result-container {
-    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
-    border: 2px solid #fff; /* Border around the result text */
-    max-width: 200px; /* Maximum width */
-    margin: 20px auto; /* Centered and margin */
-    text-align: center; /* Centered text alignment */
-    padding: 10px; /* Padding for result container */
-}
-
-/* Result Styling */
-.result-container p {
-    color: #fff; /* Bright white color */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Light text shadow */
-    font-size: 25px; /* Font size */
-}
-
-/* Reset Section Styling */
-.reset-section {
-    text-align: center; /* Centered reset section */
-}
-
-/* Reset Button Styling */
-.reset-btn {
-    border: 2px solid #000; /* Black border */
-    background-color: #000; /* Black background color */
-    color: #fff; /* White text color */
+    background-color: rgba(255, 255, 255, 0.95);
     cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
-    padding: 10px 20px; /* Padding for reset button */
-    font-size: 20px; /* Font size */
 }
 
-/* Reset Button Hover Styling */
+.btn:disabled {
+    color: #000;
+    cursor: not-allowed;
+}
+
+.result-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #fff;
+    max-width: 200px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.result-container p {
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+}
+
+.reset-section {
+    text-align: center;
+}
+
+.reset-btn {
+    border: 2px solid #000;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
 .reset-btn:hover {
-    background-color: #fff; /* White background on hover */
-    color: #000; /* Black text color on hover */
+    background-color: #fff;
+    color: #000;
 }
